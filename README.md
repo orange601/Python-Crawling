@@ -1,32 +1,47 @@
-# Python-Crawling
-파이썬을 이용한 텍스트 이미지 크롤링
+```
+┌───────────────────────────────────────────────┐
+                                       _       
+     __ _  ___   ___  _ __ _ __ ___   (_) ___  
+    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
+   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
+    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
+    |___/                                      
+			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
+└───────────────────────────────────────────────┘
+```
 
-## 설치 ##
-1. 파이썬을 직접 PC에 설치하기에는 버전 충돌 및 관리가 불편하다.
-2. gooormide를 이용한 개발환경을 구성한다.
+# goormIDE
+Welcome to goormIDE!
 
-## goormide 사용 ##
-- https://ide.goorm.io/ 접속, 무료
+goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
+**DEVELOP WITH EXCELLENCE**  
 
-- 회원가입, 카카오톡 아이디 사용
+`Happy coding! The goormIDE team`
 
-- 컨테이너생성 및 실행 ( 파이썬 환경으로 실행됨 )
 
-- BeautifulSoup 설치, 크롤링 라이브러리
-  + pip install bs4
+## 🔧 Tip & Guide
 
-- google iamge download 라이브러리 다운로드받기
-  + https://pypi.org/project/google_images_download/
-  + pip install google_images_download
+* Command feature
+	* You can simply run your script using the shortcut icons on the top right.
+	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
+	
+* Get URL and Port
+	* Click `PROJECT > URL/PORT` in top menu bar.
+	* You can get default URL/Port and add URL/Port in the top menu.
 
-- Google image download 라이브러리 샘플 코드 ( https://google-images-download.readthedocs.io/en/latest/examples.html# )
-````python
-from google_images_download import google_images_download   #importing the library
+* Useful shortcut
+	
+| Shortcuts name     | Command (Mac) | Command (Window) |
+| ------------------ | :-----------: | :--------------: |
+| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
+| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
+| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
+| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
+| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
+| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
+| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
 
-response = google_images_download.googleimagesdownload()   #class instantiation
+## 💬 Support & Documentation
 
-arguments = {"keywords":"Polar bears,baloons,Beaches","limit":20,"print_urls":True}   #creating list of arguments
-paths = response.download(arguments)   #passing the arguments to the function
-print(paths)   #printing absolute paths of the downloaded images
-````
-
+Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
+To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
