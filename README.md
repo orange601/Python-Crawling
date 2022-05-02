@@ -9,6 +9,24 @@
 pip install google_images_download
 ````
 
+## google.py ##
+````
+from google_images_download import google_images_download   #importing the library
+
+response = google_images_download.googleimagesdownload()   #class instantiation
+
+arguments = {"keywords":"원더걸스 유빈, 세븐틴 버논, 노을 전우성, 펜타곤 진호, 하석진, 홍대광, 홍진경, 프로미스나인 장규리, 우주소녀 연정"
+             , "limit": 20
+             , "print_urls": True
+             , "format": "jpg"
+            }   #creating list of arguments
+paths = response.download(arguments)   #passing the arguments to the function
+print(paths)   #printing absolute paths of the downloaded images
+````
+
+1. https://google-images-download.readthedocs.io/en/latest/arguments.html arguments의 문서를 확인한다.
+2. arguments의 원하는 keyword와 limit 개수를 정한다. format은 jpg만 다운로드한다.
+3. python google.py 실행하면 download 폴더에 크롤링 된 이미지 파일이 생성된다.
 
 ```
 ┌───────────────────────────────────────────────┐
