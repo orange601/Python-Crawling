@@ -1,4 +1,5 @@
-# python을 이용한 이미지 크롤링 #
+# 크롤링 #
+with python
 
 ## goormIDE를 이용한 Python 개발 환경 Setting ##
 - https://ide.goorm.io/ 접속
