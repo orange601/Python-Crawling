@@ -1,3 +1,15 @@
+# python을 이용한 이미지 크롤링 #
+
+## goormIDE를 이용한 Python 개발 환경 Setting ##
+- https://ide.goorm.io/ 접속
+- 컨테이너 생성시 python으로 설정
+- https://pypi.org/project/google_images_download/ 파이썬을 이용한 크롤링 라이브러리
+- 위 사이트 접속 후 설치방법 확인
+````
+pip install google_images_download
+````
+
+
 ```
 ┌───────────────────────────────────────────────┐
                                        _       
