@@ -25,7 +25,7 @@ paths = response.download(arguments)   #passing the arguments to the function
 print(paths)   #printing absolute paths of the downloaded images
 ````
 
-1. https://google-images-download.readthedocs.io/en/latest/arguments.html arguments의 문서를 확인한다.
+1. 전체적인 내용은 https://google-images-download.readthedocs.io/en/latest/arguments.html arguments의 문서를 확인한다.
 2. arguments의 원하는 keyword와 limit 개수를 정한다. format은 jpg만 다운로드한다.
 3. python google.py 실행하면 download 폴더에 크롤링 된 이미지 파일이 생성된다.
 
