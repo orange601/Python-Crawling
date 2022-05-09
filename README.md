@@ -12,7 +12,7 @@
 2. 새 컨테이너를 생성하고, 생성시 python으로 설정
 3. google_images_download를 설치한다.
 ````
-pip install google_images_downloa
+pip install google_images_download
 ````
 
 ## google.py ##
