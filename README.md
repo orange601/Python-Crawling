@@ -4,7 +4,7 @@
 
 ## 파이썬 설치 및 개발 환경 Setting ##
 - 파이썬을 Local에 설치해도 상관없지만, goormIDE를 통해 개발환경을 갖춘다.
-- goormIDE란 브라우저를 통해 통합 개발환경을 설정하고 사용할 수 있다.
+- goormIDE란 Cloud IDE이다. 브라우저를 통해 통합 개발환경을 설정하고 사용할 수 있다.
 - https://ide.goorm.io/
 
 ## goormIDE를 이용한 Python 개발 환경 Setting ##
