@@ -1,5 +1,6 @@
 # 파이썬을 이용한 크롤링 #
 파이썬으로 작성된 google_images_download 라이브러리를 통해 크롤링한다.
+- pip install google_images_download
 - https://pypi.org/project/google_images_download/
 
 ## 파이썬 설치 및 개발 환경 Setting ##
