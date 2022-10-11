@@ -24,7 +24,7 @@ from google_images_download import google_images_download   #importing the libra
 
 response = google_images_download.googleimagesdownload()   #class instantiation
 
-arguments = {"keywords":"원더걸스 유빈, 세븐틴 버논, 노을 전우성"
+arguments = {"keywords":"원더걸스 유빈, 세븐틴 버논, 트와이스 사나"
              , "limit": 20
              , "print_urls": True
              , "format": "jpg"
